@@ -6,7 +6,7 @@ A wordlist-based pattern generator to use with gf (by tomnomnom)
 
 I use tomnomnom's [gf](https://github.com/tomnomnom/gf) quite a lot. Some patterns (like AWS keys) are fairly static and don't change much once they're created. However, there are some patterns that I use extensively with wordlists. For example, when grepping for keywords in URLs I have separate lists for SSRF, SQLi, etc. I regularly update those wordlists (and often customize them depending on the testing target) so I don't want to manually have to create or update separate gf pattern files each time. 
 
-This python script does that work for me, reading in a wordlist and creating a corresponding gf pattern file in a matter of seconds.  
+This python script does that work for me, reading in a wordlist and quickly creating a corresponding gf pattern file.  
 
 ## Usage
 
