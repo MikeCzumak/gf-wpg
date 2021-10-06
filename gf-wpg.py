@@ -3,6 +3,8 @@ import ntpath
 import os
 import argparse
 
+# gf-wpg.py - Author: Mike Czumak | @MikeCzumak
+
 # format help output (bypass argparse deletion of newlines)
 class BlankLinesHelpFormatter (argparse.HelpFormatter):
     def _split_lines(self, text, width):
